@@ -10,3 +10,4 @@
 - [<i class="fas fa-blog"></i> Blog](https://redpeacock78.github.io)
 - [<i class="fas fa-link"></i> Forkwell](https://portfolio.forkwell.com/@redpeacock78)
 - [<i class="fas fa-link"></i> Findy](https://findy-code.io/share_profiles/MtDP20ib6UJ7S)
+-[<i class="fab fa-linkedin"></i> Linkdin](https://www.linkedin.com/in/redpeacock78/)

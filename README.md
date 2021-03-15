@@ -1,13 +1,21 @@
 # :sushi: redpeacock78
 ![Profiel views](https://komarev.com/ghpvc/?username=redpeacock78)  
+```console
+$ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/hello.sh)
+               __                                   __    ______ ______ 
+.----.-----.--|  .-----.-----.---.-.----.-----.----|  |--|      |  __  |
+|   _|  -__|  _  |  _  |  -__|  _  |  __|  _  |  __|    <|_     |  __  |
+|__| |_____|_____|   __|_____|___._|____|_____|____|__|__| |____|______|
+                 |__|
+├── From Japan.
+├── Since 1997.07.08
+└── Joined Github on 2017.08.29
+```
 ## Skills
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="40"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" width="40"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/yarn/yarn-original.svg" width="40"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg" width="40"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vagrant/vagrant-original.svg" width="40">
-## Activity  
-<img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/0-profile-details.svg" width="650">  
-
-<img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/1-repos-per-language.svg" width="325"><img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/2-most-commit-language.svg" width="325">  
-<img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/3-stats.svg" width="325"><img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/4-productive-time.svg" width="325">  
-
+## Activity
+![](https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/0-profile-details.svg) 
+![](https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/1-repos-per-language.svg)![](https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/2-most-commit-language.svg)![](https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/3-stats.svg)![](https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/4-productive-time.svg)  
 [![trophy](https://github-profile-trophy.vercel.app/?username=redpeacock78&theme=onedark&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 ## Social
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/twitter/twitter-original.svg" width="40">](https://twitter.com/kazuki_199778)

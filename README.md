@@ -8,7 +8,7 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 |__| |_____|_____|   __|_____|___._|____|_____|____|__|__| |____|______|
                  |__|
 ├── From Japan.
-├── Since 1997.07.08
+├── Born on 1997.07.08
 └── Joined Github on 2017.08.29
 ```
 ## Skills

@@ -24,6 +24,7 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/twitter/twitter-original.svg" width="40">](https://twitter.com/kazuki_199778)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Mastodon_Logotype_%28Simple%29.svg" width="40">](https://mstdn.jp/@redpeacock78)
 [<img src="https://cdn.worldvectorlogo.com/logos/sina-weibo-2.svg" width="50">](https://weibo.com/u/5511883870)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="40">](https://t.me/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Generic_Feed-icon.svg" width="40">](https://redpeacock78.github.io)
 [<img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="40">](https://www.linkedin.com/in/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://portfolio.forkwell.com/@redpeacock78)

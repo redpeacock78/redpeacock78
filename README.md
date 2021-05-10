@@ -29,3 +29,10 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 [<img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="40">](https://www.linkedin.com/in/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://portfolio.forkwell.com/@redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://findy-code.io/share_profiles/MtDP20ib6UJ7S)
+## Qualifications
+|Date of acquisition|Certification Body|Name of qualification|
+|:-:|:-:|:-:|
+|2021/03|文部科学省|学芸員|
+|2021/03|学校法人瓜生山学園 京都芸術大学|学士(芸術)|
+|2014/02|公益財団法人日本英語検定協会|実用英語技能検定 3級|
+|2012/09|公益財団法人日本漢字能力検定協会|日本漢字能力検定 準2級|

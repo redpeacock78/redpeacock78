@@ -31,9 +31,9 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://portfolio.forkwell.com/@redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://findy-code.io/share_profiles/MtDP20ib6UJ7S)
 ## Qualifications
-|Date of acquisition|Certification Body(Ja)|Certification Body(En)|Name of qualification(Ja)|Name of qualification(En)|
+|Date of acquisition|Certification Body|Name of qualification|
 |:-:|:-:|:-:|:-:|:-:|
-|2021/03|文部科学省|Ministry of Education, Culture, Sports, Science and Technology|学芸員|Curator Certification|
-|2021/03|学校法人瓜生山学園 京都芸術大学|Kyoto University of the Arts|学士(芸術)|BFA|
-|2014/02|公益財団法人日本英語検定協会|Eiken Foundation of Japan|実用英語技能検定 3級|EIKEN test Level 3|
-|2012/09|公益財団法人日本漢字能力検定協会|Japan Kanji Aptitude Testing Foundation|日本漢字能力検定 準2級|The Japan Kanji Aptitude Test Pre-Level 2|
+|2021/03|Ministry of Education, Culture, Sports, Science and Technology|Curator Certification|
+|2021/03|Kyoto University of the Arts|BA, Fine Arts|
+|2014/02|Eiken Foundation of Japan|EIKEN test Level 3|
+|2012/09|Japan Kanji Aptitude Testing Foundation|The Japan Kanji Aptitude Test Pre-Level 2|

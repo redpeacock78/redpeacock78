@@ -32,7 +32,7 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://findy-code.io/share_profiles/MtDP20ib6UJ7S)
 ## Qualifications
 |Date of acquisition|Certification Body|Name of qualification|
-|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|
 |2021/03|Ministry of Education, Culture, Sports, Science and Technology|Curator Certification|
 |2021/03|Kyoto University of the Arts|BA, Fine Arts|
 |2014/02|Eiken Foundation of Japan|EIKEN test Level 3|

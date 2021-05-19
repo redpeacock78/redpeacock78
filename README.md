@@ -33,6 +33,7 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 ## Qualifications
 |Date of acquisition|Certification Body|Name of qualification|
 |:-:|:-:|:-:|
+|2021/04|Japanese Accreditation Board fo Archaeological Researcher|Archaeological Researcher Level 2|
 |2021/03|Ministry of Education, Culture, Sports, Science and Technology|Curator Certification|
 |2021/03|Kyoto University of the Arts|BA, Fine Arts|
 |2014/02|Eiken Foundation of Japan|EIKEN test Level 3|

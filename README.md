@@ -29,7 +29,9 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 [<img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Generic_Feed-icon.svg" width="40">](https://redpeacock78.github.io)
 [<img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="40">](https://www.linkedin.com/in/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://portfolio.forkwell.com/@redpeacock78)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://findy-code.io/share_profiles/MtDP20ib6UJ7S)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://findy-code.io/share_profiles/MtDP20ib6UJ7S)  
+### :pill: Gemini Protocol Site(Capsule)
+- gemini://gemini.redpeacock78.ml
 ## :scroll: Qualifications
 |Date of acquisition|Certification Body|Name of qualification|Classification|
 |:-:|:-:|:-:|:-:|

@@ -19,7 +19,8 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 <img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/1-repos-per-language.svg" width="327"><img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/2-most-commit-language.svg" width="327">
 <img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/3-stats.svg" width="327"><img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/4-productive-time.svg" width="327">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=redpeacock78&theme=onedark&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=redpeacock78&theme=onedark&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)  
+<img src="https://pixe.la/v1/users/redpeacock78/graphs/tweets" width="654">
 ## :earth_asia: Social
 [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/twitter/twitter-original.svg" width="40">](https://twitter.com/kazuki_199778)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Mastodon_Logotype_%28Simple%29.svg" width="40">](https://mstdn.jp/@redpeacock78)

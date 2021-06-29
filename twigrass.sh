@@ -7,8 +7,8 @@ readonly pixela_token="${pixela_user_token}"
 
 data="$(curl -s "https://twilog.org/${twitter_user}/stats")"
 
-tweets=($(grep ^'ar_data\[1\]' <<<"${data}"|sed 's/^.*\[1\] = \[//;s/\]\;//;s/,/\n/g'|tac|head -n365))
-dates=($(grep ^'ar_lbl\[1\]' <<<"${data}"|sed "s/^.*\[1\] = \[//;s/\]\;//;s/'//g;s/,/\n/g"|tac|head -n365))
+tweets=($(grep ^'ar_data\[1\]' <<<"${data}"|sed 's/^.*\[1\] = \[//;s/\]\;//;s/,/\n/g' 2>/dev/null|tac|head -n365))
+dates=($(grep ^'ar_lbl\[1\]' <<<"${data}"|sed "s/^.*\[1\] = \[//;s/\]\;//;s/'//g;s/,/\n/g" 2>/dev/null|tac|head -n365))
 
 for ((i=0; i<"${#tweets[@]}"; i++)); do
   if [[ "${i}" != "0" ]]; then

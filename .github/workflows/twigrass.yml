@@ -11,8 +11,24 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
+      - name: Check is running
+        uses: actions/github-script@v4
+        id: runningCount
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const runed = await github.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: "twigrass.yml",
+              status:"in_progress"
+            });
+            return runed.data.total_count
+          result-encoding: string
       - uses: actions/checkout@v2
+        if: steps.runningCount.outputs.result=='1'
       - name: generate
+        if: steps.runningCount.outputs.result=='1'
         run: ./twigrass.sh
         env:
           twitter_user_name: ${{ secrets.TWITTER_USER_NAME }}

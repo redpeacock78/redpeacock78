@@ -10,10 +10,11 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-    name: generate
-    run: ./twigrass.sh
-    env:
-      twitter_user_name: ${{ secrets.TWITTER_USER_NAME }}
-      pixela_user_name: ${{ secrets.PIXELA_USER_NAME }}
-      graph_id: ${{ secrets.PIXELA_GRAPH_ID }}
-      pixela_user_token: ${{ secrets.PIXELA_USER_TOKEN }}
+    steps:
+      - name: generate
+        run: ./twigrass.sh
+        env:
+          twitter_user_name: ${{ secrets.TWITTER_USER_NAME }}
+          pixela_user_name: ${{ secrets.PIXELA_USER_NAME }}
+          graph_id: ${{ secrets.PIXELA_GRAPH_ID }}
+          pixela_user_token: ${{ secrets.PIXELA_USER_TOKEN }}

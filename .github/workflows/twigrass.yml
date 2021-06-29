@@ -1,11 +1,10 @@
 name: twigrass
 
 on:
-  create:
   push:
+  workflow_dispatch:
   schedule:
     - cron: "* */6 * * *"
-  workflow_dispatch:
 
 jobs:
   run:

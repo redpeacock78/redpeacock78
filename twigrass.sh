@@ -15,7 +15,7 @@ for ((i=0; i<"${#tweets[@]}"; i++)); do
     echo ""
   fi
   echo https://pixe.la/v1/users/"${pixela_user}"/graphs/"${pixela_graph_id}"/20${dates[i]} { \"quantity\": \""${tweets[i]}"\"}
-  curl -X PUT \
+  curl -s -X PUT \
     -H "X-USER-TOKEN:${pixela_token}" \
     -d '{ "quantity": "'"${tweets[i]}"'"}' \
     "https://pixe.la/v1/users/${pixela_user}/graphs/${pixela_graph_id}/20${dates[i]}"

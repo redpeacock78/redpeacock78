@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: "* */6 * * *"
+    - cron: "0 0,6,12,18 * * *"
 
 jobs:
   run:
@@ -30,7 +30,7 @@ jobs:
         if: steps.runningCount.outputs.result=='1'
         run: ./twigrass.sh
         env:
-          twitter_user_name: ${{ secrets.TWITTER_USER_NAME }}
-          pixela_user_name: ${{ secrets.PIXELA_USER_NAME }}
-          graph_id: ${{ secrets.PIXELA_GRAPH_ID }}
-          pixela_user_token: ${{ secrets.PIXELA_USER_TOKEN }}
+          TWITTER_USER_NAME: ${{ secrets.TWITTER_USER_NAME }}
+          PIXELA_USER_NAME: ${{ secrets.PIXELA_USER_NAME }}
+          PIXELA_GRAPH_ID: ${{ secrets.PIXELA_GRAPH_ID }}
+          PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}

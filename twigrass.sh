@@ -13,7 +13,9 @@ mapfile -t tweets < <(grep ^'ar_data\[1\]' <<<"${data}" | sed 's/^.*\[1\] = \[//
 mapfile -t dates < <(grep ^'ar_lbl\[1\]' <<<"${data}" | sed "s/^.*\[1\] = \[//;s/\]\;//;s/'//g;s/,/\n/g" | tac 2>/dev/null | head -n365)
 
 for ((i = 0; i < "${#tweets[@]}"; i++)); do
-  [[ "${i}" != "0" ]] && echo ""
+  if [[ "${i}" != "0" ]]; then
+    echo ""
+  fi
   echo https://pixe.la/v1/users/"${pixela_user}"/graphs/"${pixela_graph_id}"/20${dates[i]} { \"quantity\": \""${tweets[i]}"\"}
   curl -s -X PUT \
     -H "X-USER-TOKEN:${pixela_token}" \

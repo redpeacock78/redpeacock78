@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
-#shellcheck disable=SC2153,SC2086
+#shellcheck disable=SC2153,SC2086,SC1083
 
 readonly twitter_user="${TWITTER_USER_NAME}"
 readonly pixela_user="${PIXELA_USER_NAME}"

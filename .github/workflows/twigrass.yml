@@ -28,11 +28,15 @@ jobs:
           result-encoding: string
       - uses: actions/checkout@v2
         if: steps.runningCount.outputs.result=='1'
+      - name: Get current date
+        if: steps.runningCount.outputs.result=='1'
+        id: date
+        run: echo "set-output name=date::$(date '+%Y%m%d-%H%M%S')"
       - uses: actions/cache@v2
         if: steps.runningCount.outputs.result=='1'
         with:
           path: ./dates_cache.txt
-          key: twigrass-${{ env.cache-version }}-${{ hashFiles('**/dates_cache.txt') }}
+          key: ${{ runner.os }}-twigrass-${{ env.cache-version }}-${{ steps.date.outputs.date }}
           restore-keys: |
             twigrass-${{ env.cache-version }}-
       - name: generate

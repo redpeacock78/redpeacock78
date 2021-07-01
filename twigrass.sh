@@ -15,11 +15,12 @@ mapfile -t dates < <(grep ^'ar_lbl\[1\]' <<<"${data}" | sed "s/^.*\[1\] = \[//;s
 if [[ ! -e ./dates_cache.txt ]]; then
   for ((i = 0; i < "${#dates[@]}"; i++)); do
     [[ "${i}" != "0" ]] && echo ""
-    echo https://pixe.la/v1/users/"${pixela_user}"/graphs/"${pixela_graph_id}"/20${dates[i]} { \"quantity\": \""${tweets[i]}"\"} &&
+    declare URL="https://pixe.la/v1/users/${pixela_user}/graphs/${pixela_graph_id}/20${dates[i]}"
+    echo "${URL}" { \"quantity\": \""${tweets[i]}"\"} &&
       curl -s -X PUT \
         -H "X-USER-TOKEN:${pixela_token}" \
         -d '{ "quantity": "'"${tweets[i]}"'"}' \
-        "https://pixe.la/v1/users/${pixela_user}/graphs/${pixela_graph_id}/20${dates[i]}" &&
+        "${URL}" &&
       sleep 1
   done
 else
@@ -32,11 +33,12 @@ else
   } | tr ' ' \\n | sort | uniq -u | tac)
   for ((i = 0; i < "${#dates_diff[@]}"; i++)); do
     [[ "${i}" != "0" ]] && echo ""
-    echo https://pixe.la/v1/users/"${pixela_user}"/graphs/"${pixela_graph_id}"/20${dates_diff[i]} { \"quantity\": \""${tweets[i]}"\"} &&
+    declare URL="https://pixe.la/v1/users/${pixela_user}/graphs/${pixela_graph_id}/20${dates_diff[i]}"
+    echo "${URL}" { \"quantity\": \""${tweets[i]}"\"} &&
       curl -s -X PUT \
         -H "X-USER-TOKEN:${pixela_token}" \
         -d '{ "quantity": "'"${tweets[i]}"'"}' \
-        "https://pixe.la/v1/users/${pixela_user}/graphs/${pixela_graph_id}/20${dates_diff[i]}" &&
+        "${URL}" &&
       sleep 1
   done
 fi

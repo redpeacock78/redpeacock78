@@ -38,7 +38,7 @@ jobs:
           path: ./dates_cache.txt
           key: ${{ runner.os }}-twigrass-${{ env.cache-version }}-${{ steps.date.outputs.date }}
           restore-keys: |
-            twigrass-${{ env.cache-version }}-
+            ${{ runner.os }}-twigrass-${{ env.cache-version }}-
       - name: generate
         if: steps.runningCount.outputs.result=='1'
         run: ./twigrass.sh

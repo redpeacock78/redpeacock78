@@ -6,7 +6,7 @@ on:
   schedule:
     - cron: "0 0,6,12,18 * * *"
 env:
-  cache-version: v1
+  cache-version: v2
 
 jobs:
   run:

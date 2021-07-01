@@ -5,6 +5,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0,6,12,18 * * *"
+env:
+  cache-version: v1
 
 jobs:
   run:
@@ -26,17 +28,13 @@ jobs:
           result-encoding: string
       - uses: actions/checkout@v2
         if: steps.runningCount.outputs.result=='1'
-      - name: Get current date
-        if: steps.runningCount.outputs.result=='1'
-        id: date
-        run: echo "set-output name=date::$(date '+%Y%m%d-%H%M%S')"
       - uses: actions/cache@v2
         if: steps.runningCount.outputs.result=='1'
         with:
           path: ./dates_cache.txt
-          key: ${{ runner.os }}-twigrass-${{ steps.date.outputs.date }}
+          key: twigrass-${{ env.cache-version }}-${{ hashFiles('**/dates_cache.txt') }}
           restore-keys: |
-            ${{ runner.os }}-twigrass-
+            twigrass-${{ env.cache-version }}-
       - name: generate
         if: steps.runningCount.outputs.result=='1'
         run: ./twigrass.sh

@@ -31,6 +31,7 @@ else
     echo "${dates[@]}"
   } | tr ' ' \\n | sort | uniq -u | tac)
   for ((i = 0; i < "${#dates_diff[@]}"; i++)); do
+    [[ "${i}" != "0" ]] && echo ""
     echo https://pixe.la/v1/users/"${pixela_user}"/graphs/"${pixela_graph_id}"/20${dates_diff[i]} { \"quantity\": \""${tweets[i]}"\"} &&
       curl -s -X PUT \
         -H "X-USER-TOKEN:${pixela_token}" \

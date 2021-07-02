@@ -28,15 +28,17 @@ jobs:
           result-encoding: string
       - uses: actions/checkout@v2
         if: steps.runningCount.outputs.result=='1'
-      - name: Get current date
+      - name: Get random hash
         if: steps.runningCount.outputs.result=='1'
-        id: date
-        run: echo "::set-output name=date::$(date '+%Y%m%d-%H%M%S')"
+        id: hash
+        run: |
+          hash="$(sha256sum <(openssl rand -base64 10)|awk '{print $1}')"
+          echo "::set-output name=hash::${hash}"
       - uses: actions/cache@v2
         if: steps.runningCount.outputs.result=='1'
         with:
           path: ./dates_cache.txt
-          key: ${{ runner.os }}-twigrass-${{ env.cache-version }}-${{ steps.date.outputs.date }}
+          key: ${{ runner.os }}-twigrass-${{ env.cache-version }}-${{ steps.hash.outputs.hash }}
           restore-keys: |
             ${{ runner.os }}-twigrass-${{ env.cache-version }}-
       - name: generate

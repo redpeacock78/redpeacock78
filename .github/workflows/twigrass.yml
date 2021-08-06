@@ -22,11 +22,7 @@ jobs:
               repo: context.repo.repo,
               workflow_id: "twigrass.yml"
             });
-            return runed.data.workflow_runs.map(
-              (i) => i.status
-            ).filter(
-              (i) => i === 'in_progress'
-            ).length;
+            return runed.data.workflow_runs.map((i) => i.status).filter((i) => i === 'in_progress').length;
           result-encoding: string
       - uses: actions/checkout@v2
         if: ${{ steps.running_count.outputs.result == '1' }}

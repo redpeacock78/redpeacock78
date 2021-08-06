@@ -26,22 +26,22 @@ jobs:
             return runed.data.total_count
           result-encoding: string
       - uses: actions/checkout@v2
-        if: steps.runningCount.outputs.result=='1'
+        if: steps.runningCount.outputs.result=='0'
       - name: Get random hash
-        if: steps.runningCount.outputs.result=='1'
+        if: steps.runningCount.outputs.result=='0'
         id: hash
         run: |
           hash="$(sha256sum <(openssl rand -base64 10)|awk '{print $1}')"
           echo "::set-output name=hash::${hash}"
       - uses: actions/cache@v2
-        if: steps.runningCount.outputs.result=='1'
+        if: steps.runningCount.outputs.result=='0'
         with:
           path: ./dates_cache.txt
           key: ${{ runner.os }}-twigrass-${{ env.cache-version }}-${{ steps.hash.outputs.hash }}
           restore-keys: |
             ${{ runner.os }}-twigrass-${{ env.cache-version }}-
       - name: generate
-        if: steps.runningCount.outputs.result=='1'
+        if: steps.runningCount.outputs.result=='0'
         run: ./twigrass.sh
         env:
           TWITTER_USER_NAME: ${{ secrets.TWITTER_USER_NAME }}

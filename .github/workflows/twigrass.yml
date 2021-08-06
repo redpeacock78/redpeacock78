@@ -20,28 +20,31 @@ jobs:
             const runed = await github.actions.listWorkflowRuns({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              workflow_id: "twigrass.yml",
-              status:"in_progress"
+              workflow_id: "twigrass.yml"
             });
-            return runed.data.total_count
+            return runed.data.workflow_runs.map(
+              (i) => i.status
+            ).filter(
+              (i) => i === 'in_progress'
+            ).length;
           result-encoding: string
       - uses: actions/checkout@v2
-        if: steps.runningCount.outputs.result=='0'
+        if: ${{ steps.running_count.outputs.result == '1' }}
       - name: Get random hash
-        if: steps.runningCount.outputs.result=='0'
+        if: ${{ steps.running_count.outputs.result == '1' }}
         id: hash
         run: |
           hash="$(sha256sum <(openssl rand -base64 10)|awk '{print $1}')"
           echo "::set-output name=hash::${hash}"
       - uses: actions/cache@v2
-        if: steps.runningCount.outputs.result=='0'
+        if: ${{ steps.running_count.outputs.result == '1' }}
         with:
           path: ./dates_cache.txt
           key: ${{ runner.os }}-twigrass-${{ env.cache-version }}-${{ steps.hash.outputs.hash }}
           restore-keys: |
             ${{ runner.os }}-twigrass-${{ env.cache-version }}-
       - name: generate
-        if: steps.runningCount.outputs.result=='0'
+        if: ${{ steps.running_count.outputs.result == '1' }}
         run: ./twigrass.sh
         env:
           TWITTER_USER_NAME: ${{ secrets.TWITTER_USER_NAME }}

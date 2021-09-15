@@ -29,6 +29,7 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 [<img src="https://cdn.worldvectorlogo.com/logos/sina-weibo-2.svg" width="50">](https://weibo.com/u/5511883870)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="40">](https://t.me/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Skype_logo_%282019%E2%80%93present%29.svg" width="40">](https://join.skype.com/invite/woSUZYEyEuZx)
+[<img src="https://i.imgur.com/hn0jhRe.png" width="70">](https://soundcloud.com/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Generic_Feed-icon.svg" width="40">](https://redpeacock78.github.io)
 [<img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="40">](https://www.linkedin.com/in/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://portfolio.forkwell.com/@redpeacock78)

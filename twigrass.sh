@@ -7,7 +7,7 @@ readonly pixela_graph_id="${PIXELA_GRAPH_ID}"
 readonly pixela_token="${PIXELA_USER_TOKEN}"
 
 declare data
-data="$(curl -s "https://twilog.org/${twitter_user}/stats")"
+data="$(curl -s "https://twilog.togetter.com/${twitter_user}/stats")"
 
 mapfile -t tweets < <(grep ^'ar_data\[1\]' <<<"${data}" | sed 's/^.*\[1\] = \[//;s/\]\;//;s/,/\n/g;s/\t//g' | tac 2>/dev/null)
 mapfile -t dates < <(grep ^'ar_lbl\[1\]' <<<"${data}" | sed "s/^.*\[1\] = \[//;s/\]\;//;s/'//g;s/,/\n/g;s/\t//g" | tac 2>/dev/null)

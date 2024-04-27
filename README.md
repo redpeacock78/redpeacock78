@@ -14,7 +14,7 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 ## :black_nib: Skills
 <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/TypeScript/TypeScript.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/React/React.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Next.js/Next.js.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Vue/Vue.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Node.js/Node.js.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Hono/Hono.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Mui/Mui.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Java/Java.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Python/Python.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Html/HTML.png" width="150">
 
-Logos designeted by [@SAWARATSUKI](https://github.com/SAWARATSUKI)  
+Logos designed by [@SAWARATSUKI](https://github.com/SAWARATSUKI)  
 Repository: [SAWARATSUKI/ServiceLogos](https://github.com/SAWARATSUKI/ServiceLogos)
 ## :runner: Activity
 <img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/0-profile-details.svg" width="654">

@@ -12,10 +12,10 @@ $ bash <(curl -s https://raw.githubusercontent.com/redpeacock78/redpeacock78/mas
 └── Joined Github on 2017.08.29
 ```
 ## :black_nib: Skills
-<img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/TypeScript/TypeScript.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/React/React.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Next.js/Next.js.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Vue/Vue.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Node.js/Node.js.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Hono/Hono.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Mui/Mui.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Java/Java.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Python/Python.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/ServiceLogos/main/Html/HTML.png" width="150">
+<img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/TypeScript/TypeScript.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/React/React.png" width="150"> <!-- <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Next.js/Next.js.png" width="150"> --> <!-- <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Vue/Vue.png" width="150"> --> <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Node.js/Node.js.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Hono/Hono.png" width="150"> <!-- <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Mui/Mui.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Java/Java.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Python/Python.png" width="150"> <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Html/HTML.png" width="150"> --> <img src="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/main/Cloudflare/Cloudflare.png" width="150">
 
 Logos designed by [@SAWARATSUKI](https://github.com/SAWARATSUKI)  
-Repository: [SAWARATSUKI/ServiceLogos](https://github.com/SAWARATSUKI/ServiceLogos)
+Repository: [SAWARATSUKI/KawaiiLogos](https://github.com/SAWARATSUKI/KawaiiLogos)
 ## :runner: Activity
 <img src="https://raw.githubusercontent.com/redpeacock78/redpeacock78/master/profile-summary-card-output/monokai/0-profile-details.svg" width="654">
 
@@ -33,6 +33,7 @@ Repository: [SAWARATSUKI/ServiceLogos](https://github.com/SAWARATSUKI/ServiceLog
 [<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="40">](https://t.me/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Skype_logo_%282019%E2%80%93present%29.svg" width="40">](https://join.skype.com/invite/woSUZYEyEuZx)
 [<img src="https://i.imgur.com/hn0jhRe.png" width="70">](https://soundcloud.com/redpeacock78)
+[<img src="https://i.imgur.com/hn0jhRe.png" width="70">](https://soundcloud.com/redpeacock978)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Generic_Feed-icon.svg" width="40">](https://redpeacock78.github.io)
 [<img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" width="40">](https://www.linkedin.com/in/redpeacock78)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png" width="40">](https://portfolio.forkwell.com/@redpeacock78)
